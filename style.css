@@ -1,6 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+body {
+  width: 80vw;
+  height: 80vh;
+  margin-left: 120px;
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -64,7 +70,7 @@
 
 .wrapper .right {
   width: 80%;
-  height: 125vh;
+  height: 132vh;
   background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
   background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
   border-top-right-radius: 20px;
@@ -221,7 +227,7 @@
 
 .wrapper .mainContent .pic1, .wrapper .mainContent .pic2 {
   margin-top: 110px;
-  height: 300px;
+  height: 220px;
   border-radius: 20px;
   border: 4px dashed #706060;
 }
@@ -261,8 +267,11 @@
   border-radius: 20px;
   padding: 10px;
   color: #444444;
-  background: #bbbbbb;
-  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
+  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
+  margin-top: 50px;
+  color: #272727;
+  font-family: 'Patua One', cursive;
 }
 
 html {

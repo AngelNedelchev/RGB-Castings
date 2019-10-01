@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+body{
+    width: 80vw;
+    height: 80vh;
+    margin-left: 120px;
+ }
 .wrapper{
     display: flex;
 
@@ -48,7 +53,7 @@
     }
     .right{
         width: 80%;
-    height: 125vh;
+    height: 132vh;;
     background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -159,7 +164,7 @@ text-shadow: 4px 3px 0 #7A7A7A;
         border-top: 4px dashed rgb(112, 96, 96);
         .pic1, .pic2{
             margin-top: 110px;
-            height: 300px;
+            height: 220px;
             border-radius: 20px;
             border: 4px dashed rgb(112, 96, 96);
             
@@ -189,8 +194,11 @@ text-shadow: 4px 3px 0 #7A7A7A;
             border-radius: 20px;
             padding: 10px;
             color: #444444;
-            background: rgb(187, 187, 187);
-            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+            background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+            margin-top: 50px;
+            color: rgb(39, 39, 39);
+            font-family: 'Patua One', cursive;
+            //text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
         }
     }
 }
