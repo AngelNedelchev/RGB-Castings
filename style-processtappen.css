@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Grenze&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Patua+One&display=swap");
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+}
+
+.wrapper .left {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 20%;
+  background: #e7e5e4;
+  border-right: 4px dashed #706060;
+  font-family: 'Indie Flower', cursive;
+  font-family: 'Grenze', serif;
+  font-size: 60px;
+}
+
+.wrapper .left ul {
+  list-style: none;
+}
+
+.wrapper .left ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.wrapper .left ul li {
+  margin: 20px;
+  font-size: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
+  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
+  border: 2px solid black;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-left: -10px;
+}
+
+.wrapper .left ul li li a :hover {
+  color: white;
+}
+
+.wrapper .left ul li:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CECECE), color-stop(50%, #103E5C), to(#000000));
+  background: linear-gradient(to bottom, #CECECE 0%, #103E5C 50%, #000000 100%);
+  -webkit-box-shadow: 0px 0px 21px 0px #000000;
+          box-shadow: 0px 0px 21px 0px #000000;
+}
+
+.wrapper .left ul li a:hover {
+  color: white;
+}
+
+.wrapper .right {
+  width: 80%;
+  height: 125vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
+  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.wrapper .header {
+  height: 30%;
+  border-top-right-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+.wrapper .header .test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  width: 100%;
+}
+
+.wrapper .header .contact {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+  width: 33.33%;
+  padding: 20px;
+  font-family: 'Patua One', cursive;
+  font-size: 20px;
+  color: #2c2c2c;
+}
+
+.wrapper .header .contact p {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.wrapper .header .logo {
+  width: 33.33%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .header .logo h1:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  background-color: black;
+  background: -webkit-gradient(linear, left top, left bottom, from(#CECECE), color-stop(50%, #103E5C), to(#000000));
+  background: linear-gradient(to bottom, #CECECE 0%, #103E5C 50%, #000000 100%);
+  -webkit-box-shadow: 0px 0px 21px 0px #000000;
+          box-shadow: 0px 0px 21px 0px #000000;
+}
+
+.wrapper .header .logo a {
+  text-decoration: none;
+}
+
+.wrapper .header .slogan {
+  margin: 15px 15px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 33.33%;
+  font-family: 'Indie Flower', cursive;
+}
+
+.wrapper .header .slogan .topRightImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+  border: 1px solid black;
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper .header .slogan p {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.356);
+}
+
+.wrapper .header h1 {
+  border-bottom: 2px solid #CCCCCC;
+  -webkit-box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 37px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  padding: 13px;
+  color: #444444;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
+  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
+  width: 240px;
+  border-left: 2px solid #CCCCCC;
+  border-right: 2px solid #CCCCCC;
+  font-family: 'Indie Flower', cursive;
+  color: #CCCCCC;
+  color: #FFFFFF;
+  text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+.wrapper .header h2 {
+  border-top: 2px solid #CCCCCC;
+  color: #CCCCCC;
+  font-family: 'Indie Flower', cursive;
+  -webkit-box-shadow: 1px 17px 30px -2px #000000;
+          box-shadow: 1px 17px 30px -2px #000000;
+  border-radius: 20px;
+  padding: 13px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cedce7), to(#596a72));
+  background: linear-gradient(to bottom, #cedce7 0%, #596a72 100%);
+  margin-top: -10px;
+  text-align: center;
+  border-right: 2px solid #CCCCCC;
+  border-left: 2px solid #CCCCCC;
+  color: #FFFFFF;
+  text-shadow: 4px 3px 0 #7A7A7A;
+}
+
+.wrapper .mainContent {
+  border-top: 4px dashed #706060;
+  font-family: 'Patua One', cursive;
+}
+
+.wrapper .mainContent h1, .wrapper .mainContent p {
+  margin: 16px;
+}
+
+.wrapper .mainContent li {
+  margin: 8px;
+}
+
+.wrapper .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  border-bottom-right-radius: 20px;
+  margin-top: -20px;
+}
+
+.wrapper .footer h4 {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  font-family: 'Josefin Sans', sans-serif;
+  -webkit-box-shadow: 1px 17px 30px -2px #000000;
+          box-shadow: 1px 17px 30px -2px #000000;
+  border-radius: 20px;
+  padding: 10px;
+  color: #444444;
+  background: #bbbbbb;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+html {
+  background: black;
+}
+/*# sourceMappingURL=style-processtappen.css.map */

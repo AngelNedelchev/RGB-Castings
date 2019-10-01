@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Grenze&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+.wrapper{
+    display: flex;
+
+    border-radius: 20px;
+    .left{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 20%;
+        background: #e7e5e4;
+        border-right: 4px dashed rgb(112, 96, 96);
+
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Grenze', serif;
+        font-size: 60px;
+        
+    ul{
+        list-style: none;
+    a{
+            text-decoration: none;
+            color: white;
+        }
+    li{
+            margin: 20px;
+            font-size: 20px;
+            background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+            border: 2px solid rgb(0, 0, 0);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            color: white;
+            margin-left: -10px;
+            li a :hover{
+                color: white;
+                
+            }
+        }
+    li:hover{
+            transform: scale(1.2);
+            background-color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, #CECECE 0%, #103E5C 50%, #000000 100%);
+            box-shadow: 0px 0px 21px 0px #000000;
+        }
+    li a:hover{
+            color: white;
+        }
+    }
+    }
+    .right{
+    width: 80%;
+    height: 125vh;
+    background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    }
+    .header{
+        height: 30%;
+        border-top-right-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        
+        .test{
+            display: flex;
+            flex-flow: row;
+            width: 100%;
+        }
+        .contact{
+            padding: 15px;
+            display: flex;
+            flex-flow: column;
+            flex-direction: column-reverse;
+            width: 33.33%;
+            padding: 20px;
+            font-family: 'Patua One', cursive;
+            font-size: 20px;
+            color: rgb(44, 44, 44);
+            p{
+                border-bottom: 2px solid rgba(0, 0, 0, 0.356);
+            }
+        }
+        .logo{
+            width: 33.33%;
+            display: flex;
+            flex-flow: column;
+            justify-content: end;
+            align-items: center;
+            h1:hover{
+                transform: scale(1.1);
+            background-color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, #CECECE 0%, #103E5C 50%, #000000 100%);
+            box-shadow: 0px 0px 21px 0px #000000;
+            }
+            a{
+                text-decoration: none;
+                
+            }
+            
+        }
+        .slogan{
+            margin: 15px 15px 0 0 ;
+            display: flex;
+            justify-content: flex-end;
+            width: 33.33%;
+            font-family: 'Indie Flower', cursive;
+
+            .topRightImage{
+            height: 150px;
+            width: 150px;
+            border-radius: 20px;
+            border: 1px solid black;
+            box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+                }
+            p{
+                border-bottom: 2px solid rgba(0, 0, 0, 0.356);
+            }
+        }
+            h1{
+            border-bottom: 2px solid#CCCCCC;
+            box-shadow: 0px 0px 37px 0px rgba(0,0,0,0.75);
+            border-radius: 20px;
+            padding: 13px;
+            color: #444444;
+            text-align: center;
+            background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+            width: 240px;
+            border-left: 2px solid#CCCCCC;
+            border-right: 2px solid#CCCCCC;
+            font-family: 'Indie Flower', cursive;
+            color: #CCCCCC;
+            color: #FFFFFF;
+
+            text-shadow: 4px 3px 0 #7A7A7A;
+        }
+            h2{
+                
+            border-top: 2px solid#CCCCCC;
+            color: #CCCCCC;
+            font-family: 'Indie Flower', cursive;
+            box-shadow: 1px 17px 30px -2px #000000;
+            border-radius: 20px;
+            padding: 13px;
+            background: linear-gradient(to bottom, rgb(206,220,231) 0%,rgb(89,106,114) 100%);
+            margin-top: -10px;
+            text-align: center;
+            border-right: 2px solid#CCCCCC;
+            border-left: 2px solid #CCCCCC;
+            color: #FFFFFF;
+
+text-shadow: 4px 3px 0 #7A7A7A;
+            }
+    }
+    .mainContent{
+        border-top: 4px dashed rgb(112, 96, 96);
+
+        font-family: 'Patua One', cursive;
+
+        ul{
+            text-decoration: underline;
+            
+        }
+        .picWrap{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        }
+        .one , .two{
+            width: 400px;
+            border-radius: 20px;
+            margin-bottom: 10px;
+            margin-top: 20px;
+            
+        }
+        .one:hover{
+            transform: scale(1.1);
+            box-shadow: 5px 5px 15px 5px #000000;
+        }
+        .two:hover{
+            transform: scale(1.1);
+            box-shadow: 5px 5px 15px 5px #000000;
+        }
+
+        h1, p{
+            margin: 16px;
+        }
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        border-bottom-right-radius: 20px;
+        h4{
+            border-top: 3px solid rgb(0, 0, 0);
+            border-bottom: 3px solid rgb(0, 0, 0);
+            font-family: 'Josefin Sans', sans-serif;
+            box-shadow: 1px 17px 30px -2px #000000;
+            border-radius: 20px;
+            padding: 10px;
+            color: #444444;
+            background: rgb(187, 187, 187);
+            text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+        }
+    }
+}
+
+html{
+    background: black;
+}
