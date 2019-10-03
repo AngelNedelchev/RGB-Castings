@@ -225,6 +225,7 @@ html {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   border-top: 4px dashed #706060;
+  font-family: 'Patua One', cursive;
 }
 
 .wrapper .mainContent .formWrap {

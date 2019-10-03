@@ -218,13 +218,12 @@ html {
 
 .wrapper .mainContent {
   text-align: center;
-  font-family: 'Indie Flower', cursive;
   border-top: 4px dashed #706060;
 }
 
 .wrapper .mainContent h2 {
   margin: 20px 0 0 0;
-  text-decoration: underline;
+  font-family: 'Patua One', cursive;
 }
 
 .wrapper .mainContent .buttonsWrap {
